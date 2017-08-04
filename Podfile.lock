@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.0.0)
+  - FDStackView (1.0)
+  - GPUImage (0.1.7)
+  - IQKeyboardManager (3.3.7)
+  - JSONModel (1.4.0)
+  - LazyTableView (1.4.2):
+    - AFNetworking (= 2.6.3)
+    - JSONModel
+    - MJRefresh
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - FDStackView (= 1.0)
+  - GPUImage
+  - IQKeyboardManager
+  - LazyTableView (~> 1.4.2)
+  - pop
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JSONModel: 58fe3f8c29ff95ed94e7ee7dde87e807f5da5371
+  LazyTableView: 7c629c992f9a7cff40cb3013e4c7f315927a99de
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 1af8b9b7a036b4a4cf8cc897ac6542186a12f40a
+
+COCOAPODS: 1.0.1

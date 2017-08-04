@@ -1,0 +1,36 @@
+//
+//  MyPrefixHeader.pch
+//  OFFLine
+//
+//  Created by Apple on 16/8/25.
+//  Copyright © 2016年 Apple. All rights reserved.
+//
+
+#ifndef MyPrefixHeader_pch
+#define MyPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIDefines.h"
+#import "UIViewAdditions.h"
+#import "OBShapedButton.h"
+#import <AFNetworking.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+
+
+#define MyURL @"http://115.159.125.251:805/ashx/OffineApp.ashx"
+
+#endif
+
+#define MyBlueColor [UIColor colorWithRed:2 / 255.0 green:176 / 255.0 blue:240 / 255.0 alpha:1.0]//自定义蓝色
+#ifndef TARGET_IPHONE_SIMULATOR
+#define TARGET_IPHONE_SIMULATOR 0
+#endif
+
+#define printf_console printf
+
+#endif /* MyPrefixHeader_pch */
