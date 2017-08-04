@@ -33,7 +33,6 @@
     [super viewDidLoad];
     
     [self createSubviews];
-    NSLog(@"+6++%@", self.chip);
 }
 
 //返回上一页
